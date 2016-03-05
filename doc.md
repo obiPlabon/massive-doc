@@ -1,7 +1,11 @@
 Massive WordPress
 ===
 
-WordPress Installation
+
+Installation
+===
+
+WordPress
 ---
 
 The most valuable resource on how to install WordPress on your local server or production server is Codex. The WordPress bible, visit [WordPress Installation](http://codex.wordpress.org/Installing_WordPress) to learn all the details about WordPress installation.
@@ -19,7 +23,7 @@ Learn how install WordPress in production server.
 *Both tutorials by WP Beginner*
 
 
-Theme Installation
+Theme
 ---
 
 You can install *Massive WordPress theme* using default theme installer or using FTP. Here is a list of requirements to install *Massive WordPress Theme* on your server.
@@ -34,6 +38,10 @@ You can install *Massive WordPress theme* using default theme installer or using
 * another one - > 4.0
 * another one - > 4.0
 * another one - > 4.0
+
+
+Getting Started
+===
 
 Massive Dashboard
 ---
