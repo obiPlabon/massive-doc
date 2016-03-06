@@ -320,14 +320,7 @@ Header
 7. **Active Menu:** you can set different menu for a specific page or your landing page using this field.
 
 
-Banner## Page Sidebar Settings
----
-
-![Massive Page Title](http://i.imgur.com/EEzXOZ4.png)
-
-1. **Active Sidebar:** you can activate left, right or both sidebar by selecting an option from dropdown. Or you can select *No Sidebar* for no sidebar.
-2. **Left Sidebar:** select left sidebar from dropdown.
-3. **Right Sidebar:** select right sidebar from dropdown.
+Banner
 ---
 
 ![Massive Page Banner](http://i.imgur.com/fMkvOQ3.png)
