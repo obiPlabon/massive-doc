@@ -1117,3 +1117,195 @@ Slider
 ```
 [massive_slider has_pagination="true" pagination_alignment="center" image_size="medium" images="1658,1175,1104" has_caption="true"]
 ```
+
+
+
+Subscribe
+---
+
+![Subscribe Shortcode](http://i.imgur.com/d1iiav6.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/subscribe/)
+
+1. **Subscribe Style:** choose subscribe _style_ from dropdown & the available options are:
+  * Gray
+  * White
+  * Black
+  * Theme Color
+  * Custom
+2. **Layout:** choose subscribe _layout_ from dropdown & the available options are:
+  * Box
+  * Fullwidth
+3. **Alignment:** choose subscribe _alignment_ from dropdown & available options are:
+  * Left
+  * Center
+4. **Title:** subscribe _title_ goes here.
+5. **Subtitle:** subscribe _subtitle_ goes here.
+6. **Mailchimp URL:** add your Mailchimp subscribe URL
+7. **Placeholder Text:** subscribe form's input field _placeholder_ text goes here .
+8. **Button Text:** subscribe button text goes here.
+9. **Button Shape:** choose subscribe button shape from dropdown & the available options are:
+  * Rectangular
+  * Rounded
+  * Capsule
+
+##### Example:
+```
+[massive_subscribe styles="bg-white-color" type="fullwidth" alignment="text-center" title="Subscribe title goes here" subtitle="Subscribe subtitle goes here" mailchimp="#" placeholder="insert email id" shape="rounded"]
+```
+
+
+Tabs
+---
+
+![Tabs shortcode](http://i.imgur.com/fHoh6D5.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/tabs/)
+
+1. **Tabs Style:** choose tabs style from dropdown & the available options are:
+  * Underlined Tab
+  * Button Tab
+  * Button Tab (Content Border)
+  * Capsule Tab
+  * Rectangular Tab
+  * Icon Tab
+  * Icon Tab With Title
+2. **Customize:** click this checkbox to customize tabs & then **custom settings** will be appear on a new tab.
+
+##### Example:
+```
+[massive_tabs_container type="three"][/massive_tabs_container]
+```
+---
+### Tab Item
+
+![Tab Item shortcode](http://i.imgur.com/JLzLuOB.png)
+
+*Tab Item shortcode depends on Tabs shortcode*
+
+1. **Title:** tab title goes here.
+2. **Content:** tab content goes here.
+3. **Display Icon:** click on chckbox to display an icon.
+
+##### Example:
+```
+[massive_tab title="Tab item title comes here" has_icon="true" icon="icon-alarmclock"]Tab item content comes here[/massive_tab]
+```
+
+
+Team Member
+---
+
+![Team Member Shortcode](http://i.imgur.com/Gz5xpep.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/team-member/)
+
+1. **Style:** choose team style from dropdown & the available options are:
+  * Style One
+  * Style Two
+  * Style Three
+  * Style Four
+  * Style Five
+2. **Name:** member's name goes here.
+3. **Job Title:** member's job title goes here.
+4. **Photo:** add member's photo.
+5. **Photo Style:** choose photo style form dropdown & the available options are:
+  * Simple
+  * Circle
+  * Circle Border
+6. **Title:** member's overview title goes here.
+7. **Description:** member's overview description goes here.
+
+##### Example:
+```
+[massive_team name="JhonDoe" job_title="CEO" photo_style="circle" title="Overview Title" photo="795"]Overview content goes[/massive_team]]
+```
+
+
+Testimonials
+---
+
+![Testimonials shortcode](http://i.imgur.com/XTWtqCO.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/testimonial/)
+
+1. **Testimonials Style:** choose testimonials style from dropdown & the available options are:
+  * Grid
+  * Carousel: Center Aligned
+  * Carousel: Center Aligned Boxed
+  * Carousel: Left Aligned Bubble
+  * Carousel: Left Aligned Regular
+2. **Customize:** click this checkbox to customize testimonials & then **custom settings** will be appear on a new tab.
+
+##### Example:
+```
+[massive_testimonials_container][/massive_testimonials_container]
+```
+
+### Testimonial Item
+
+![Testimonial Item shortcode](http://i.imgur.com/ZBVV063.png)
+
+*Testimonial Item shortcode depends on Testimonials shortcode*
+
+1. **Name:** testimonial provider's name goes here.
+2. **Job Title:** testimonial provider's job title goes here.
+3. **Testimonial Content:** testimonial content goes here.
+4. **Avatar:** choose avatar type from dropdown & the available options are:
+  * Image
+  * Icon  
+  * None
+
+##### Example:
+```
+[massive_testimonial which_avatar="icon" has_icon="icon-alarmclock"][/massive_testimonial]
+```
+
+##### Group Example:
+```
+[massive_testimonials_container][massive_testimonial which_avatar="icon" has_icon="icon-alarmclock"][/massive_testimonial][/massive_testimonials_container]
+```
+
+
+
+Timeline
+---
+
+![Timeline shortcode](http://i.imgur.com/wDqDlh7.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/timeline/)
+
+1. **Style:** choose timeline style from dropdown & the available options are:
+  * Dark Style
+  * Light Style
+  * Custom Style
+
+##### Example:
+```
+[massive_timeline][/massive_timeline]
+```
+
+### Timeline Event
+
+![Timeline Event shortcode](http://i.imgur.com/W3kv7ha.png)
+
+*Timeline Event shortcode depends on Timeline shortcode*
+
+1. **Event Title:** event title name goes here.
+2. **Event Details:** event details content goes here.
+3. **Alignment:** choose event alignment from dropdown & the available options are:
+  * Right
+  * Left
+4. **Icon:** add an event icon.
+5. **Title Link:** event title link goes here.
+
+
+##### Example:
+```
+[massive_timeline_event link="#" icon="icon-adjustments"]Event details goes here[/massive_timeline_event]
+```
+
+##### Group Example:
+```
+[massive_timeline][massive_timeline_event link="#" icon="icon-adjustments"]Event details goes here[/massive_timeline_event][/massive_timeline]
+```
