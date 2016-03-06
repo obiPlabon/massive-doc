@@ -636,3 +636,93 @@ Career
 ```
 [massive_career has_icon="true" button_link="#" expanded="true" title="Career title goes here" desc="Career description goes here" icon="icon-alarmclock"][massive_career_info title="Career info row title comes here"]Details goes here.[/massive_career_info][/massive_career]
 ```
+
+
+Carousel
+---
+
+![Carousel shortcode](http://i.imgur.com/znxqVrb.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/carousel/)
+
+1. **Carousel Type:** choose carousel type from dropdown & the available options are:
+  * Only Image
+  * Content With Image
+2. **Carousel Images:** add multiple images for carousel slider.
+3. **Display Pagination:** click on checkbox to display pagination.
+4. **Display Navigation:** click on checkbox to display navigation.
+5. **Number of Image (Large):** set the number of images to show on large device.
+6. **Number of Image (Desktop):** set the number of images to show on medium device.
+7. **Number of Image (Tab):** set the number of images to show on small devices.
+8. **Number of Image (Mobile):** set the number of images to show on extra small device.
+
+#### Animation Settings
+![Animation settings - carousel shortcode](http://i.imgur.com/4SLoBxJ.png)
+
+1. **Autoplay:** click on checkbox to enable carousel auto play.
+2. **Autoplay Speed:** set caautoplay speed.
+3. **Slide Speed:** set the speed of slide, in miliseconds.
+
+#### Example:
+```
+[massive_carousel has_pagination="true" has_navigation="true" lg_items="3" md_items="3" sm_items="2" xs_items="1" autoplay="true" images="1658,1234,2345,2456"][/massive_carousel]
+```
+
+
+
+Clients
+---
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/clients/)
+
+#### Style: Carousel
+
+![Clients shortcode - Carousel Style: ](http://i.imgur.com/XfhsZG0.png?1)
+
+1. **Autoplay:** choose _autoplay_ from dropdown & the available options are:
+  * Yes
+  * No
+2. **Items:** add the number of item you want to see on the screen at a time.
+3. **Pagination:** choose _autoplay_ from dropdown & the available options are:
+  * Yes
+  * No
+
+
+#### Style: Grid
+
+![Clients](http://i.imgur.com/vjlXIGL.png?1)
+
+1. **Box Style:** choose clients grid _box style_ from dropdown & the available options are:
+  * Angle Box
+  * Plus Box
+2. **Grid Size:** choose clients _grid size_ from dropdown & the available options are:
+  * 2 Grid
+  * 3 Grid
+  * 4 Grid
+  * 5 Grid
+  * 6 Grid
+
+#### Example:
+```
+[massive_clients_container items="3"][/massive_clients_container]
+```
+
+
+### Client Item
+
+![Clients](http://i.imgur.com/IalpGMJ.png)
+
+*Client Item shortcode depends on Clients shortcode*.
+
+1. **Client Log:** add client logo/image.
+2. **Client URL:** add client's _website URL_
+
+#### Example:
+```
+[massive_client url="#" id="1175"]
+```
+
+#### Group Example:
+```
+[massive_clients_container items="3"][massive_client url="#" id="1175,1234,1678"][/massive_clients_container]
+```
