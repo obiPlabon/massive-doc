@@ -726,3 +726,393 @@ Clients
 ```
 [massive_clients_container items="3"][massive_client url="#" id="1175,1234,1678"][/massive_clients_container]
 ```
+
+
+Countdown
+---
+![Countdown shortcode](http://i.imgur.com/CL3WNca.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/countdown/)
+
+1. **Countdown Style:** choose _countdown style_ from dropdown & the available options are:
+  * Circle
+  * Square
+2. **Countdown End Time:** add countdown end date and time. Format: YYYY/MM/DD. E.g: 2020/10/10
+3. **Show Weeks:** choose _weeks_ status & the available options are:
+  * Yes
+  * No
+
+
+#### Custom Settings: Circle Style
+
+![Custom Settings: Circle Style](http://i.imgur.com/yfuzhEs.png)
+
+1. **Text Color:** pick countdown text color.
+2. **Border Size:** add countdown block's border size.
+3. **Border Radius:** add countdown block's border radius.
+4. **Border Color:** pick countdown block's border color.
+5. **Background Color:** pick countdown background color.
+
+---
+#### Custom Settings: Square Style
+---
+![Custom Settings: Square Style](http://i.imgur.com/LXBWeKZ.png)
+
+1. **Text Color:** pick countdown text color.
+2. **Border Size:** add countdown block's border size.
+3. **Border Color:** pick countdown block's border color.
+4. **Background Color:** pick countdown background color.
+
+#### Example:
+```
+[massive_countdown type="square" has_weeks="" sq_text_color="rgba(0,0,0,0.2)" sq_border_color="rgba(0,0,0,0.2)" sq_bg_color="" end_time="2020/10/10"]
+```
+
+
+Divider
+---
+![Divider shortcode](http://i.imgur.com/6gzhC6P.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/divider/)
+
+1. **Line Style:** choose _line style_ from dropdown & the available options are:
+  * Solid
+  * Double
+  * Dashed
+  * Massive Special
+2. **Line Color:** pick line/separator color.
+3. **Divider Width:** add divider width in percentage.
+4. **Alignment:** choose divider _alignemnt_ from dropdown & the available options are:
+  * Center
+  * Left
+  * Right
+5. **Display Icon:** click on checkbox to add an image.
+
+
+#### Example:
+```
+[massive_divider type="dashed" line_color="#b7b7b7" width="80%" has_icon="true" icon="icon-alarmclock"]
+```
+
+
+
+Featured Box
+---
+![Featured Box shortcode](http://i.imgur.com/54KcaUx.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/featured-box/)
+
+1. **Display Type:** choose featured box _display style_ from dropdown & the available options are:
+  * Border Style
+    * Boxed with icon in the center
+    * Boxed with icon in the edge
+  * No Border
+    * Vertical Dark
+    * Vertical Light
+    * Icon on the left Dark
+    * Icon on the left Light
+    * Circle on the center
+    * Boxed
+2. **Title:** featured box _title_ goes here.
+3. **Content:** featured box _content_ goes here.
+4. **Icon:** choose an featured _icon_
+5. **Customize:** click on checkbox to customize featured box.
+
+
+#### Example:
+```
+[massive_featuredbox type="verticaldark" title="Featured box title goes here" icon="icon-adjustments"]Featured content goes here[/massive_featuredbox]
+```
+
+
+Fun Factors
+---
+![Fun Factors shortcode](http://i.imgur.com/wXGmmGz.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/fun-factors/)
+
+1. **Display Type:** choose fun factor _display style_ from dropdown & the available options are:
+  * Horizontal With Separator (Dark)
+  * Horizontal With Separator (Light)
+  * Vertical  
+  * Horizontal With No Separator (Dark)
+  * Horizontal With No Separator (Light)
+  * Custom
+2. **Fun Factor Text:** fun factor _text_ goes here.
+3. **Content:** fun factor _value_ goes here.
+4. **Icon:** choose an _icon_
+
+
+#### Example:
+```
+[massive_funfactor type="noseparator" icon="icon-adjustments"]
+```
+
+
+Gallery
+---
+![Gallery shortcode](http://i.imgur.com/X1TkFV4.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/features/gallery-masonry/)
+
+1. **Gallery Images:** add as many images as you want for gallery
+
+
+#### Example:
+```
+[massive_gallery images="1665,1658,1175"]
+```
+
+
+
+Heading
+---
+![Heading shortcode](http://i.imgur.com/IwZZesf.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/heading-style)
+
+1. **Heading Style:** choose heading _style_ from dropdown & the available options are:
+  * General Style
+    * Default
+  * Border Style
+    * Border Bottom
+    * Border Bottom (Tiny)
+    * Border Right
+    * Border Around
+2. **Title:** heading title goes here.
+3. **Title Color:** choose title _color_ from dropdown & the available options are:
+  * Black
+  * White
+  * Theme
+  * Custom
+4. **Title Size:** choose title _size_ from dropdown & the available options are:
+  * Extra Large
+  * Large
+  * Medium
+  * Small
+  * Extra Small
+  * Mini
+  * Custom
+5. **Subtitle:** subtitle text goes here.
+6. **Subtitle Color:** choose subtitle _color_ from dropdown & the available options are:
+  * Black
+  * White
+  * Theme
+  * Custom
+7. **Subtitle Position:** choose subtitle _position_ from dropdown & the available options are:
+  * Before Title
+  * After Title
+8. **Heading Alignment:** choose heading _alignment_ from dropdown & the available options are:
+  * Center
+  * Left
+  * Right
+9. **Subtitle Letter Spacing:**  choose subtitle _Letter spacing_ from dropdown & the available options are:
+  * 0px
+  * 1px
+  * 2px
+  * 3px
+  * 4px
+  * 5px
+  * 6px
+
+
+#### Example:
+```
+[massive_heading ttext="Heading title goes here" tcolor="theme_color" tsize="24px" alignment="text-left" st_letter_space="2" type="five" sttext="Heading subtitle goes here"]
+```
+
+
+Icon List
+---
+
+![Icon List shortcode](http://i.imgur.com/68Z09Sm.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/icon-list/)
+
+1. **Icon Theme:** choose icon _theme_ from dropdown & the available options are:
+  * Border Less Transparent Background
+  * Border With Transparent Background
+  * Border Less Gray Background
+  * Border Less Dark Background
+2. Click on toggle row.
+3. **Text:** icon list _text_ goes here.
+4. **Icon:** pick an _icon_ for list.
+
+#### Example:
+```
+[massive_list][/massive_list]
+```
+
+
+
+Page Title
+---
+
+![Page Title shortcode](http://i.imgur.com/eTVkpbe.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/features/page-title/background-title/)
+
+1. **Page Title Style:** choose page title _style_ from dropdown & the available options are:
+  * Default
+  * Custom
+2. **Title:** page title text goes here.
+3. **Subtitle:** page subtitle text goes here
+4. **Breadcrumb:** click on checkbox to enable breadcrumb.
+5. **Alignment:** choose page title _alignment_ from dropdown & the available options are:
+  * Left
+  * Right
+  * Center
+6. **Page Title Size:** choose page title _size_ from dropdown & the available options are:
+  * Default
+  * Mini
+
+
+#### Example:
+```
+[massive_page_title alignment="page-title-center" title_size="mini-title" title="Page title goes here" subtitle="Page subtitle goes here"]
+```
+
+Portfolio
+---
+
+![Portfolio shortcode](http://i.imgur.com/kZ46Voq.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/portfolios/boxed/gutter/3-grid/)
+
+1. **Portfolio Category:** select portfolio categories by clicking checkbox.
+2. **Grid Settings:** choose grid settings from dropdown & available options are:
+  * Grid 2
+  * Grid 3
+  * Grid 4
+  * Grid 5
+  * Grid 6
+3. **Gutter Settings:** choose gutter settings from dropdown & available options are:
+  * Grid Without Gutter
+  * Grid With Gutter
+4. **Content Position:** choose content position from dropdown & available options are:
+  * On Hover
+  * Bottom
+5. **Portfolio Items:** add number of portfolios you want to display.
+6. **Masonry View:** click on checkbox to enable masonry view.
+7. **Disable Portfolio Filter:** click on checkbox to disable portfolio filter by tag.
+
+
+#### Example:
+```
+[massive_portfolio categories="35" portfolio_grid_quantity="three" has_portfolio_gutter="1" content_position="bottom" portfolio_items="9" has_portfolio_masonry="true" portfolio_filter="true"]
+```
+
+
+
+Pricing Table
+---
+
+![Pricing Table Shortcode](http://i.imgur.com/dajGLH3.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/pricing-table/)
+
+1. **Currency:** add pricing currency.
+2. **Column(s):**  choose column(s) from dropdown & the available options are:
+  * 1 Column
+  * 2 Columns
+  * 3 Columns
+  * 4 Columns
+  * 6 Columns
+3. **Remove Gutter:** click this checkbox for gutter less table.
+
+##### Example:
+```
+[massive_pricing_table columns="3"][/massive_pricing_table]
+```
+
+### Package
+
+![Package shortcode](http://i.imgur.com/e7aZ7D7.png)
+
+*Package shortcode depends on Pricing Table shortcode*
+
+1. **Package Name:** pricing package _name_ goes here.
+2. **Package Price:** package price goes here.
+3. **Package Duration:** add package duration.
+4. **Package Features:** pricing features content goes here.
+5. **Button Text:** change button text.
+6. **Button Link:** add button link.
+7. **Featured Package:** click this checkbox to making featured package.
+
+##### Example:
+```
+[massive_package title="Startup" price="300" button_text="Purchase " button_link="#" is_featured="true"]Feature goes here Feature goes here[/massive_package]
+```
+
+##### Group Example:
+```
+[massive_pricing_table columns="3"][massive_package title="Startup" price="300" button_text="Purchase " button_link="#" is_featured="true"]Feature goes here Feature goes here[/massive_package][/massive_pricing_table]
+```
+
+
+
+Progressbars
+---
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/progress-bar/)
+
+Progressbar**s** shortcode works only as a container of Progressbar shortcode.
+
+##### Example:
+```
+[massive_progressbars][/massive_progressbars]
+```
+
+### Progressbar
+
+![Progressbar shortcode](http://i.imgur.com/nyBaAdY.png)
+
+*Progdressbar shortcode depends on Progressbars shortcode*
+
+1. **Progressbar Style:** choose progressbar stlyle form dropdown & the available options are:
+  * Tooltip
+  * Bar
+2. **Progressbar Text:** progressbar text goes here.
+3. **Prgress Percentage:** add progress percentage here.
+4. **Progdressbar Text Color:** pcik a color for progressbar text.
+5. **Progressbar Color:** pick a bar color.
+6. **Progressbar Background Color:** pick a background color for progressbar.
+7. **Progressbar Height:** progdressbar height goes here.
+
+
+##### Example:
+```
+[massive_progressbar percentage="80" color="#333333" bg_color="#eae8e8"]
+```
+
+##### Group Example:
+```
+[massive_progressbars][massive_progressbar percentage="80" color="#333333" bg_color="#eae8e8"][/massive_progressbars]
+```
+
+
+
+Slider
+---
+
+![Slider Shortcode](http://i.imgur.com/fIjIGqw.png)
+
+[Live Preview >(http://massivedemo.lab.themebucket.net/shortcodes/carousel/)
+
+1. **Slider Title:** sider title comes here.
+2. **Slider Images:** add as many images as you want for slider.
+3. **Display Caption:** click this checkbox to display caption.
+4. **Dispaly Pagination:** click this checkbox to display pagination.
+5. **Pagiantion Type:** choose pagination type form dropdown & the available options are:
+  * Bullet
+  * Thumbnail
+6. **Pagination Alignment:** choose pagination _alignment_ from dropdown & the available options are:
+    * Left Align
+    * Center Align
+    * Right Align
+7. **Slider Image Size:** choose slider image size from dropdown.
+
+##### Example:
+```
+[massive_slider has_pagination="true" pagination_alignment="center" image_size="medium" images="1658,1175,1104" has_caption="true"]
+```
