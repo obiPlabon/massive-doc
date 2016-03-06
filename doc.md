@@ -753,9 +753,9 @@ Countdown
 4. **Border Color:** pick countdown block's border color.
 5. **Background Color:** pick countdown background color.
 
----
+
 #### Custom Settings: Square Style
----
+
 ![Custom Settings: Square Style](http://i.imgur.com/LXBWeKZ.png)
 
 1. **Text Color:** pick countdown text color.
@@ -798,6 +798,7 @@ Divider
 
 Featured Box
 ---
+
 ![Featured Box shortcode](http://i.imgur.com/54KcaUx.png)
 
 [Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/featured-box/)
@@ -1097,7 +1098,7 @@ Slider
 
 ![Slider Shortcode](http://i.imgur.com/fIjIGqw.png)
 
-[Live Preview >(http://massivedemo.lab.themebucket.net/shortcodes/carousel/)
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/carousel/)
 
 1. **Slider Title:** sider title comes here.
 2. **Slider Images:** add as many images as you want for slider.
