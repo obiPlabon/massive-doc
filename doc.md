@@ -554,3 +554,85 @@ Blog Post
 #### Example:
 ```
 [massive_posts type="two" number="2" excerpt_length="30" orderby="ID" order="ASC"]
+```
+
+
+Button
+---
+
+![Button shortcode](http://i.imgur.com/iIsMuZI.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/buttons/)
+
+1. **Button Type:** choose button type from dropdown & the available options are:
+  * Fill
+  * Line
+  * Bootstrap
+  * Custom
+2. **Button Shape:** choose button type from dropdown & the available options are:
+  * Rectangular
+  * Rounded
+  * Capsule
+3. **Button Color:** choose button color from dropdown & the available options are:
+  * Theme Color
+  * Black
+  * White
+4. **Button Size:** choose button size from dropdown & the available options are:
+  * Large
+  * Medium
+  * Small
+  * Tiny
+5. **Button Text:** button text goes here.
+6. **BUtton Link:** button link goes here.
+7. **Open Link In A New Tab:** click on checkbox to open link in a new tab.
+8. **Dispaly Icon:** click on checkbox to add an icon.
+9. **CSS Class:** button CSS class goes here.
+10. **CSS ID:** button CSS ID goes here.
+
+#### Example:
+
+```
+[massive_button type="line" shape="rounded" btn_color="black" size="small" link="#" icon_position="after" newtab="true" has_icon="true" icon="icon-alarmclock" css_class="btn-class" css_id="btn-id"]
+```
+
+
+
+Career
+---
+
+![Career shortcode](http://i.imgur.com/tjjF0BK.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/career/)
+
+1. **Title:** career _title_ goes here.
+2. **Description:** career _description_ goes here.
+3. **Display Icon:** click on checkbox to add an icon.
+4. **Details Button Text:** career _details button text_ goes here.
+5. **Apply Button Link:** add _apply button link_ here.
+6. **Apply Button Text:** change _apply button text_ from here.
+7. **Close Button Text:** change _close button text_ from here.
+8. **Expanded Details:** click on checkbox to enable expand details.
+
+##### Example:
+```
+[massive_career has_icon="true" button_link="#" expanded="true" title="Career title goes here" desc="Career description goes here" icon="icon-alarmclock"][/massive_career]
+```
+
+### Career Info Row
+
+![Career Info Row shortcode](http://i.imgur.com/geIc96G.png)
+
+*Career Info Row Shortcode depends on Career Shortcode*
+
+1. **Title:** career info _title_ goes here.
+2. **Content:** career info _description_ content goes here.
+
+##### Example:
+```
+[massive_career_info title="Career info row title comes here"]Details goes here.[/massive_career_info]
+```
+
+##### Group Example:
+```
+[massive_career has_icon="true" button_link="#" expanded="true" title="Career title goes here" desc="Career description goes here" icon="icon-alarmclock"][massive_career_info title="Career info row title comes here"]Details goes here.[/massive_career_info][/massive_career]
+```
