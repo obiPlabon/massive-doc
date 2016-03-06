@@ -290,3 +290,96 @@ Backup
 
 1. Copy and paste your backup data here and then click on **Import a Backup** button.
 2. These arbitrary texts are actually your theme options data. You can save these text for later use as backup.
+
+
+
+Massive Page Options
+===
+
+Layout
+---
+
+![Massive Page Title](http://i.imgur.com/DSN7V7j.png)
+
+1. **Page Top Padding:** set page content area top padding (empty field will be count as default and default value is `100px`).
+2. **Page Bottom Padding:** set page content area bottom padding (empty field will be count as default and default value is `100px`).
+2. **Enable Boxed View:** switch on enable page boxed view `1170px`.
+
+
+Header
+---
+
+![Massive Page Header](http://i.imgur.com/tRpD6YO.png)
+
+1. **Override Header Settings:** if you want page specific header settings or want to create a landing page then this feature is really helpful. Just switch on and then change all the available settings however you want.
+2. **Default Logo:** add your brand identity or logo here (Massive WordPress Theme doesn't resize or scale your logo so make sure to keep it in good shape).
+3. **Retina Logo:** add the retina version of your brand logo (Massive WordPress Theme doesn't resize or scale your logo so make sure to keep it in good shape).
+4. **Header Layout:** easily add google analytics code. Just copy from google analytics dashboard and paste in analytics field.
+5. **Header Theme:** You've four header theme for first two header layout and two header theme for the rest. And all the available options are Dark, Light, Semi-transparent and Transparent.
+6. **Menu Link Style:** select a suitable menu link style from dropdown. There are 4 options and all the options name are very meaningful.
+7. **Active Menu:** you can set different menu for a specific page or your landing page using this field.
+
+
+Banner## Page Sidebar Settings
+---
+
+![Massive Page Title](http://i.imgur.com/EEzXOZ4.png)
+
+1. **Active Sidebar:** you can activate left, right or both sidebar by selecting an option from dropdown. Or you can select *No Sidebar* for no sidebar.
+2. **Left Sidebar:** select left sidebar from dropdown.
+3. **Right Sidebar:** select right sidebar from dropdown.
+---
+
+![Massive Page Banner](http://i.imgur.com/fMkvOQ3.png)
+
+1. **Status:** you can enable/disable the page banner very easily by just toggling the switch.
+2. **Type:** select a banner type from dropdown and available options are "Massive Banner" & "Slider Revolution". Make sure to create slider/banner before you try to use any.
+3. **Massive Banner/Slider Revolution:** select a banner or slider from dropdown which you've already created.
+
+
+Page Title
+---
+
+![Massive Page Title](http://i.imgur.com/2H8v7c1.png)
+![Massive Page Title 2](http://i.imgur.com/6kNbCQJ.png)
+
+1. **Page Title Status:** enable/disable page title by toggling the switch.
+2. **Title Alignment:** select an alignment option form dropdown and the available options are *left*, *center* and *right*.
+3. **Title Top Padding:** set title top padding.
+4. **Title Bottom Padding:** set title bottom padding.
+5. **Title Top Border:** set title top border size.
+6. **Title Bottom Border:** set title bottom border size.
+7. **Title Border color:** set title border color
+8. **Title Background:** set title background color, image and other settings.
+9. **Title Color:** set title color.
+10. **Title Font Size:** set title font size.
+11. **Page Sub Title:** add page sub title text in this field.
+12. **Sub Title Color:** set subtitle color.
+13. **Sub Title Font Size:** set subtitle font size.
+14. **Display Breadcrumbs:** switch on to show breadcrumbs menu list.
+14. **Breadcrumbs Color:** set breadcrumbs item color.
+14. **Breadcrumbs Active Color:** set breadcrumbs active item color.
+
+
+Sidebar
+---
+
+![Massive Page Title](http://i.imgur.com/EEzXOZ4.png)
+
+1. **Active Sidebar:** you can activate left, right or both sidebar by selecting an option from dropdown. Or you can select *No Sidebar* for no sidebar.
+2. **Left Sidebar:** select left sidebar from dropdown.
+3. **Right Sidebar:** select right sidebar from dropdown.
+
+
+Footer
+---
+
+![Massive Page Footer](http://i.imgur.com/G8D34H5.png)
+
+1. **Status:** you can easily enable and disable footer by toggling the switch button.
+2. **Footer Layout:** select a layout style from dropdown. There are three layouts:
+    1. **Widgetized Footer**: its name implies it's feature. If you select it you'll be able to add widget to footer area.
+    2. **With Footer Logo (Normal)**: *(This option doesn't support widget)*.
+    2. **With Footer Logo (Pulled Up)**: *(This option doesn't support widget)*.
+3. **Footer Theme:** there are 2 theme options. Dark and Light.
+5. **Social Icon Theme:** there are 3 theme color. Dark, Light and Gray.
