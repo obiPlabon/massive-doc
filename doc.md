@@ -293,7 +293,7 @@ Backup
 
 
 
-Massive Page Options
+Page Options
 ===
 
 Layout
