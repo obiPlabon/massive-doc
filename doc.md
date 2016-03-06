@@ -73,19 +73,16 @@ Just click on the large **Import Demo** button and wait for a few minutes to com
 picture goes here
 
 
-Settings
-===
-
-
 Theme Options
----
+===
 
 *Massive WordPress Theme* has very intuitive and rich theme options panel. You can control almost everything from theme options panel.
 
 ![Massive Theme Options](http://i.imgur.com/NzPURTH.png)
 
 
-### General Options
+General
+---
 
 ![Massive General Options](http://i.imgur.com/NzPURTH.png)
 
@@ -96,7 +93,8 @@ Theme Options
 5. **Theme Color:** you can choose any color from unlimited choices.
 
 
-### Header Options
+Header
+---
 
 ![Massive Header Options](http://i.imgur.com/zQsSpIU.png)
 
@@ -107,3 +105,63 @@ Theme Options
 5. **Header Theme:** You've four header theme for first two header layout and two header theme for the rest. And all the available options are Dark, Light, Semi-transparent and Transparent.
 5. **Menu Link Style:** select a suitable menu link style from dropdown. There are 4 options and all the options name are very meaningful.
 6. **Display Search:** you can disable the search form from navbar by just switching off the button.
+
+
+Blog
+---
+
+### Blog Settings
+
+![Massive Blog Settings Options](http://i.imgur.com/J76Nlqg.png)
+![Massive Blog Settings Options](http://i.imgur.com/D3LtMFK.png)
+
+1. **Title Alignment:** select an alignment option form dropdown and the available options are *left*, *center* and *right*.
+2. **Title Top Padding:** set title top padding.
+3. **Title Bottom Padding:** set title bottom padding.
+4. **Title Background:** set title background color, image and other settings.
+5. **Title Color:** set title color.
+6. **Title Font Size:** set title font size.
+7. **Display Breadcrumbs:** switch on to show breadcrumbs menu list.
+8. **Display Post Meta:** switch on to display post meta data. Such as *Author Name*, *Post Category*, *Comment Link* etc.
+9. **Display Author Name:** switch on to display post author name.
+10. **Display Post Category:** switch on to display post category.
+11. **Display Post Comment Link:** switch on to display post comment link.
+12. **Display Post Date:** switch on to display post publish date.
+13. **Modify Read More Button:** set custom text for read more button.
+14. **Post Date Format:** set post date format.
+15. **Customize Excerpt Length:** set post excerpt length.
+
+
+### Blog Home Options
+
+![Massive Blog Home Options](http://i.imgur.com/4TtB4Dc.png)
+
+1. **Blog Page Title:** set your blog home page title text. Details settings on **Blog Settings** page.
+2. **Layout:** select a layout between **Boxed** and **Full Width**.
+3. **Sidebar:** select sidebar position or select **No Sidebar** if you don't want any sidebar.
+4. **List Style:** select post list style form radio button list. You'll see more options after clicking one of the three options.
+5. **List Style Visual Format:**
+    1. **Classic Style:** it's very intuitive, so select a style that fits your need.
+    2. **Grid Style:** it's very intuitive, so select a style that fits your need.
+    3. **Masonry Style:** it's very intuitive, so select a style that fits your need.
+6. **Post Content:** select an option between excerpt and full content.
+
+
+### Blog Archive Options
+
+![Massive Blog Archive Options](http://i.imgur.com/ystXapn.png)
+
+1. **Featured Media:** switch on if you wanna show any featured media, such as image, video, gallery etc.
+2. **Post Content:** select an option from the right side list.
+
+
+### Blog Details Options
+
+![Massive Blog Details Options](http://i.imgur.com/lanjPh2.png)
+
+1. **Layout:** select a layout between **Boxed** and **Full Width**.
+2. **Sidebar:** select sidebar position or select **No Sidebar** if you don't want any sidebar.
+3. **Tags:** switch on if you wanna show post tags.
+4. **Display Related Posts:** switch on to show related posts list. Related posts are based on post categories.
+5. **Display Social Shares:** switch on to show **Social Shares** buttons.
+5. **Social Shares:** choose social sharing options from the list.
