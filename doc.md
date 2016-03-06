@@ -405,7 +405,7 @@ Accordions
 
 ![Accordion Item shortcode](http://i.imgur.com/AdOuLIj.png)
 
-*According item hortcode depends on accordions shortcode*.
+*Accordion item shortcode depends on Accordions shortcode*.
 
 1. **Title:** accordion title goes here.
 2. **Content:** accordion content goes here.
@@ -445,3 +445,112 @@ Alert
 ```
 [massive_alert type="success" bg_style="fill" has_icon="true" dismissible="true"]Alert message goes here.[/massive_alert]
 ```
+
+
+Animated Image
+---
+
+![Animated Image shortcode](http://i.imgur.com/HxaNHmp.png?1)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/home-decor/)
+
+1. **Image:** add an image for animation.
+2. **Animateion Type:** choose animation type from dropdown & the available options are:
+  * None
+  * Zoomin
+3. **Content:** animated image content goes here.
+4. **Alignment:** choose alignment from dropdown & the available options are:
+  * Left
+  * Center
+  * Right
+5. **Vertical Alignment:** choose vertical alignment from dropdown & the available options are:
+  * Top
+  * Middle
+  * Bottom
+6. **Color:** select a color for image content.
+7. **Image Link:** add a link for image.
+8. **Image Size:** choose image size from dropdown.
+
+#### Example:
+```
+[massive_image animation="zoomin" align="center" image_size="medium" image="101"]Animated image shortcode content[/massive_image]
+```
+
+
+Animated Text
+---
+
+![Animated Text shortcode](http://i.imgur.com/SolU0fq.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/features/slider/image/animated-text/)
+
+1. **Animated Text:** write content for animation.
+2. **Default Text:** add default content for animation.
+3. **Effect:** choose effect from dropdown & the available options are:
+  * Blink
+  * Mark
+
+#### Example:
+```
+[massive_animated_text effect="mark"]
+```
+
+
+Banner
+---
+
+![Banner shortcode](http://i.imgur.com/XjQzhrN.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/features/slider/image/parallax-full-screen/)
+
+1. **Banner Name:** Select a banner from the dropdown list or create a banner by going 'Banners' menu from wp-admin.
+
+#### Example:
+
+```
+[massive_banner banner="1696"]
+```
+
+
+Blog Post
+---
+
+![Blog Post shortcode](http://i.imgur.com/Irpblpl.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/post/)
+
+1. **Post Style:** choose post _style_ from dropdown & available options are:
+  * Style 1
+  * Style 2
+  * Style 3
+  * Style 4
+  * Style 5
+2. **Grid Settings:** add number of post want to display.
+3. **Image Size:** choose image size from dropdown.
+4. **Excerpt Length:** add post expert length.
+5. **Stutus:** choose post _status_ from dropdown & available options are:
+  * Publish
+  * Future
+  * Draft
+  * Pending
+  * Private
+  * Trash
+  * Auto Draft
+6. **Cagtegories:** add comma separated categories to query.
+7. **Order by:** choose _order by_ post for query from dropdown & available options are:
+  * Date
+  * ID
+  * Author
+  * Title
+  * Modified
+  * Random
+  * Comment count
+  * Menu order
+8. **Short order:** choose _short order_ for query from dropdown & available options are:
+  * Descending
+  * Ascending
+
+
+#### Example:
+```
+[massive_posts type="two" number="2" excerpt_length="30" orderby="ID" order="ASC"]
