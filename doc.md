@@ -376,3 +376,72 @@ Footer
     2. **With Footer Logo (Pulled Up)**: *(This option doesn't support widget)*.
 3. **Footer Theme:** there are 2 theme options. Dark and Light.
 5. **Social Icon Theme:** there are 3 theme color. Dark, Light and Gray.
+
+
+
+Shortcodes
+===
+
+
+Accordions
+---
+
+![Accordions shortcode](http://i.imgur.com/UGx5cgl.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/toggle-accordion/)
+
+1. **Accordions Style:** choose accordions style from dropdown & the available options are:
+  * Timeline
+  * Bar
+2. **Toggle Mode:** click on checkbox to enable toggle mode.
+3. **Customize:** click this checkbox to customize accordions & then **custom settings** will be appear on a new tab.
+
+##### Example:
+```
+[massive_accordions_container customize_one="true" toggle="true"][/massive_accordions_container]
+```
+
+### Accordion Item
+
+![Accordion Item shortcode](http://i.imgur.com/AdOuLIj.png)
+
+*According item hortcode depends on accordions shortcode*.
+
+1. **Title:** accordion title goes here.
+2. **Content:** accordion content goes here.
+
+##### Example:
+```
+[massive_accordion title="Accordion item title goes here"]Accordion item title content goes here[/massive_accordion]
+```
+
+##### Group Example:
+```
+[massive_accordions_container customize_one="true" toggle="true"][massive_accordion title="Accordion item title goes here"]Accordion item title content goes here[/massive_accordion][/massive_accordions_container]
+```
+
+
+Alert
+---
+
+![Alert shortcode](http://i.imgur.com/9mKuUOo.png)
+
+[Live Preview >](http://massivedemo.lab.themebucket.net/shortcodes/alert/)
+
+1. **Alert Type:** choose alert type from dropdown & the available options are:
+  * Information
+  * Success
+  * Warning
+  * Danger
+  * Custom
+2. **Alert Message:** alert message content goes here.
+3. **Background Style:** choose alert background style from dropdown & the available options are:
+  * None
+  * Fill
+4. **Display Icon:** click on checkbox to add an icon.
+5. **Display Close Button:** click on checkbox to show close button
+
+#### Example:
+```
+[massive_alert type="success" bg_style="fill" has_icon="true" dismissible="true"]Alert message goes here.[/massive_alert]
+```
