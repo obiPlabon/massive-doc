@@ -216,7 +216,7 @@ Footer
 6. **Display Social Icons:** you can control the visibility of social icons in the footer area by just toggling the switch button. (Add social icons from **Social Media** tab).
 
 
-Social Media Options
+Social Media
 ---
 
 ![Massive Social Media](http://i.imgur.com/5BwExI4.png)
