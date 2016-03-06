@@ -2,8 +2,10 @@ Massive WordPress
 ===
 
 
+
 Installation
 ===
+
 
 WordPress
 ---
@@ -43,6 +45,7 @@ You can install *Massive WordPress theme* using default theme installer or using
 Getting Started
 ===
 
+
 Massive Dashboard
 ---
 
@@ -63,7 +66,6 @@ You have to install the following plugins if you want a full fledge **Massive Wo
 You can easily install above mentioned plugins by going plugins tab from *Massive Dashboard*.
 
 picture goes here
-
 
 ### One Click Install
 
@@ -131,8 +133,7 @@ Blog
 14. **Post Date Format:** set post date format.
 15. **Customize Excerpt Length:** set post excerpt length.
 
-
-### Blog Home Options
+### Blog Home
 
 ![Massive Blog Home Options](http://i.imgur.com/4TtB4Dc.png)
 
@@ -146,16 +147,14 @@ Blog
     3. **Masonry Style:** it's very intuitive, so select a style that fits your need.
 6. **Post Content:** select an option between excerpt and full content.
 
-
-### Blog Archive Options
+### Blog Archive
 
 ![Massive Blog Archive Options](http://i.imgur.com/ystXapn.png)
 
 1. **Featured Media:** switch on if you wanna show any featured media, such as image, video, gallery etc.
 2. **Post Content:** select an option from the right side list.
 
-
-### Blog Details Options
+### Blog Details
 
 ![Massive Blog Details Options](http://i.imgur.com/lanjPh2.png)
 
@@ -165,3 +164,129 @@ Blog
 4. **Display Related Posts:** switch on to show related posts list. Related posts are based on post categories.
 5. **Display Social Shares:** switch on to show **Social Shares** buttons.
 5. **Social Shares:** choose social sharing options from the list.
+
+
+Portfolio
+---
+
+### Portfolio Settings
+
+![Massive Portfolio Settings Options](http://i.imgur.com/qBap502.png)
+
+1. **Layout:** you can change portfolio page width by selecting those radio buttons. Boxed for `1170px` for Full Width for `100%` (width of your browser).
+2. **Grid Settings:** set how many portfolio items you want in a row `(2-6)`.
+3. **Gutter Settings:** you can set the gap between portfolio items by selecting *Grid With Gutter*.
+4. **Content Position:** you can set the content position by selecting those radio buttons. Select on hover if you don't wanna show the content always otherwise select Bottom.
+5. **Portfolio Category:**
+5. **Enable Masonary View:** switch on to enable **Masonary** grid.
+5. **Disable Portfolio Filter:** switch on to disable portfolio filter menu or keep it off if you don't wanna disable.
+
+### Portfolio Details
+
+![Massive Portfolio Details Options](http://i.imgur.com/A3FoLyC.png)
+
+1. **Fullwidth Featured Media:** switch on this button if you want your media content to fit the container size.
+2. **Display Related Portfolio:** switch on to show related portfolio items or switch off to hide.
+3. **Number of Related Portfolio:** assign a number for how many portfolio items you wanna see.
+
+
+WooCommerce
+---
+
+![Massive WooCommerce Options](http://i.imgur.com/ExCnoUN.png)
+
+1. **Layout:** you can change portfolio page width by selecting those radio buttons. Boxed for `1170px` for Full Width for `100%` (width of your browser).
+2. **Sidebar:** select sidebar position or select **No Sidebar** if you don't want any sidebar.
+3. **Grid Style:** select how many products you wanna show in a row.
+
+
+Footer
+---
+
+![Massive Footer Options](http://i.imgur.com/DZgSjRq.png)
+
+1. **Footer Layout:** select a layout style from dropdown. There are three layouts:
+    1. **Widgetized Footer**: its name implies it's feature. If you select it you'll be able to add widget to footer area.
+    2. **With Footer Logo (Normal)**: if you select this option then you'll be shown logo uploading fields (3, 4). *(This option doesn't support widget)*.
+    2. **With Footer Logo (Pulled Up)**: if you select this option then you'll be shown logo uploading fields (3, 4). *(This option doesn't support widget)*.
+2. **Footer Theme:** there are 2 theme options. Dark and Light.
+3. **Default Logo:** upload your footer logo here and make sure to keep a reasonable contrast with footer theme color.
+4. **Retina Logo:** upload your footer logo (retina version) here and make sure to keep a reasonable contrast with footer theme color.
+5. **Display Copyright:** switch on to display footer copyright information. If you switch on then you'll be shown a textarea to add copyright information.
+6. **Display Social Icons:** you can control the visibility of social icons in the footer area by just toggling the switch button. (Add social icons from **Social Media** tab).
+
+
+Social Media Options
+---
+
+![Massive Social Media](http://i.imgur.com/5BwExI4.png)
+
+1. **Media:** you've unlimited possibilities, you can add almost all the social media links with icons. Just select the media name from dropdown and add your media link in link field.
+2. **Link:** place your media link here.
+
+
+404 Page
+---
+
+![Massive 404 Page](http://i.imgur.com/0amYFal.png)
+
+1. **404 Message:** add your custom 404 message here.
+2. **404 Image:** add an image for your 404 page.
+
+
+Custom Code
+---
+
+### JavaScript
+![Massive Custom JavaScript](http://i.imgur.com/1sHeOt8.png)
+
+1. Add your custom JavaScript in that field.
+
+### CSS
+![Massive Custom CSS](http://i.imgur.com/lK7fNVa.png)
+
+1. Add your custom CSS in that field.
+
+
+Typography
+---
+
+![Massive Typography Options](http://i.imgur.com/nMtlVnu.png)
+
+1. **Custom Typography:** switch on to customize default font stack. Otherwise you won't see 2 and 3.
+2. **Body:** customize body font.
+3. **Heading:** customize heading font `h1-h6`
+
+
+Massive Advanced
+---
+
+### Sidebar
+
+![Massive Dynamic Sidebar](http://i.imgur.com/xUxT948.png)
+
+1. **Sidebar Name:** add a convenient name so that you can recognize easily later.
+
+After adding sidebar name click on the **Add Sidebar** button and then click on **Save** button at the top.
+
+### Image Size
+
+You can easily declare custom image size. Make sure to regenerate image thumbnails.  
+
+![Massive Dynamic Image Size](http://i.imgur.com/GEzhe0F.png)
+
+1. **Name:** add an convenient and meaningful name for image size. You can call the image size by this name later.
+2. **Width:** set image width in pixels (don't need add `px` at the end).
+3. **Height:** set image height in pixels (don't need add `px` at the end).
+4. **Cropping:** select cropping option between *Hard* and *Soft*.
+
+After setting all the above mentioned fields click on the **Add New Size** and then click on **Save** button at the top.
+
+
+Backup
+---
+
+![Massive Backup](http://i.imgur.com/rudfflA.png)
+
+1. Copy and paste your backup data here and then click on **Import a Backup** button.
+2. These arbitrary texts are actually your theme options data. You can save these text for later use as backup.
