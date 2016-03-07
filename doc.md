@@ -1309,3 +1309,21 @@ Timeline
 ```
 [massive_timeline][massive_timeline_event link="#" icon="icon-adjustments"]Event details goes here[/massive_timeline_event][/massive_timeline]
 ```
+
+
+
+FAQ
+===
+
+How to create Mega Menu?
+---
+
+### Mega Menu
+
+![Mega Menu Item](http://i.imgur.com/Tzceb2e.png)
+
+Click on the (1) **Enable Massive Mega Menu** checkbox then select megamenu width (2) **Mega Menu Width** available options are a) Full Width (100%) b) Half Width (50%) c) Quarter Width (25%)
+
+### Mega Menu Column
+
+![Mega Menu Column](http://i.imgur.com/uZmmG5W.png)
