@@ -38,11 +38,8 @@ Minimum server requirements to run **Massive WordPress Theme** on your server:
 * WordPress Version: 4.0
 
 ### PHP Settings
-* Execution Time - > 5.4
-* Max upload size - > 5.0
-* another one - > 4.0
-* another one - > 4.0
-* another one - > 4.0
+* Execution Time: 5.4
+* Max upload size: 5.0
 
 
 Getting Started
