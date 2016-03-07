@@ -33,11 +33,13 @@ You can install *Massive WordPress theme* using default theme installer or using
 ### Server Requirements
 
 Minimum server requirements to run **Massive WordPress Theme** on your server:
+
 * PHP Version: 5.4
 * MySQL Version: 5.0
 * WordPress Version: 4.0
 
 ### PHP Settings
+
 * Execution Time: 5.4
 * Max upload size: 5.0
 
