@@ -1324,11 +1324,15 @@ How to create Mega Menu?
 
 1. **Enable Massive Mega Menu:** click on the checkbox to enable mega menu. Then mega menu width option (2) will appear and (3) (arrow marked) menu items will act as mega menu column.
 2. **Mega Menu Width:** select mega menu width from dropdown and available options are:
-    a. Full Width (100%)
-    b. Half Width (50%)
-    c. Quarter Width (25%)
+    1. Full Width (100%)
+    2. Half Width (50%)
+    3. Quarter Width (25%)
 3. **Mega Menu Columns:** when you enable mega menu these (arrow marked) menu items will act as mega menu column.
 
 ### Mega Menu Column
 
 ![Mega Menu Column](http://i.imgur.com/uZmmG5W.png)
+
+1. **Hide Mega Menu Column Title:** click on the checkbox to hide mega menu colum title.
+2. **Mega Menu Column Width:** select mega menu column width from dropdown. And available options are: `1-12` columns.
+3. **Mega Menu Widget Area:** you can simply add widget to mega menu column. Just select a widget area from dropdown and then add widgets to that widget area from *Appearance > Widgets*.
