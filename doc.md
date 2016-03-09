@@ -38,12 +38,6 @@ Minimum server requirements to run **Massive WordPress Theme** on your server:
 * MySQL Version: 5.0
 * WordPress Version: 4.0
 
-### PHP Settings
-
-* Execution Time: 5.4
-* Max upload size: 5.0
-
-
 Getting Started
 ===
 
@@ -53,7 +47,7 @@ Massive Dashboard
 
 Massive Dashboard has intuitive interface. You can easily install all the required plugins, import demo data & settings in one click and check your system status.
 
-picture goes here
+![Massive Dashboard](http://i.imgur.com/e0Xx1Bo.png)
 
 ### Required Plugins
 
@@ -67,14 +61,14 @@ You have to install the following plugins if you want a full fledge **Massive Wo
 
 You can easily install above mentioned plugins by going plugins tab from *Massive Dashboard*.
 
-picture goes here
+![Massive Plugins](http://i.imgur.com/lix93B1.png)
 
 ### One Click Install
 
 *Massive WordPress Theme* has the popular one click demo install feature. You can easily import all settings and data from our demo installation.
 Just click on the large **Import Demo** button and wait for a few minutes to complete the process. Then you are ready to go & do whatever you want.
 
-picture goes here
+![One Click Demo Install](http://i.imgur.com/Xyz78go.png)
 
 
 Theme Options
